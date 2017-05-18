@@ -1523,7 +1523,7 @@ Icon for all respective meta
 .mouse-icon {
 	position: absolute;
 	left: 50%;
-	bottom: 40px;
+	bottom: 4px;
 	border: 2px solid #fff;
 	border-radius: 16px;
 	height: 50px;
@@ -1572,6 +1572,15 @@ Icon for all respective meta
 	100% { top:25px; opacity: 0;}
 }
 
+.knowMoreButton{
+    position: relative;
+    border-radius: 10px;
+    border-color: #fff;
+    /*margin-top: 50px;*/
+    padding-top: 10px;  
+   
+   
+}
 /* ---------------------------------------------- /*
  * Preloader
 /* ---------------------------------------------- */
@@ -1609,12 +1618,10 @@ Icon for all respective meta
 
 
 
-
-
 /* === Home Page Two === */
 
 #homeTwo {
-    background: url(../images/home-2.jpg) no-repeat center center;
+    background: url(../images/home-2.jpg) no-repeat left center;
     background-color: #222;
     background-size: cover;
     padding: 0;
